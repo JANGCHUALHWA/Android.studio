@@ -10,5 +10,5 @@ https://dartpad.dev/ 들어간후 패드로 실습 해보기
 ![image](https://github.com/user-attachments/assets/a8891e5f-6c50-4114-8c9f-331441a3cba8)
 ### 정사각형의 길이를 입력하고 사각형을 출력하는 결과 
 ![image](https://github.com/user-attachments/assets/a31aa7d7-c01d-403b-b698-96359bf8686c)
-### 년/월/일을 입력하면 요일을 출력하라
-(Compliot 로 찾아 봤습니다.)
+### 년/월/일을 입력하면 요일을 출력하는 결과
+![image](https://github.com/user-attachments/assets/8b0a3b2a-2ecc-4dfc-a62f-c9d161a86b85)
