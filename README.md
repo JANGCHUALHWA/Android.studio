@@ -13,7 +13,7 @@ https://dartpad.dev/ 들어간후 패드로 실습 해보기
 ### 년/월/일을 입력하면 요일을 출력하는 결과
 ![image](https://github.com/user-attachments/assets/8b0a3b2a-2ecc-4dfc-a62f-c9d161a86b85)
 
-#알고리즘 공부
+## 알고리즘 공부
 알고리즘 이해 내가 이해한.. 스택
 스택 기본 자료구조에 규칙을 포함
 1. 가장 마지막에 데이터 저장 (PUSH)
