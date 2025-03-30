@@ -21,3 +21,4 @@ https://dartpad.dev/ 들어간후 패드로 실습 해보기
 2. 가장 마지막 데이터를 읽는다 (POP)
 
 3. LIFO (Last In first out) 구조 이다
+알고리즘 코드 아직 노드에 적응이 안되서 그런지 어렵다 
