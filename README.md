@@ -40,3 +40,16 @@ import 'dart:async'; = Dart 프로그래밍 언어에서 비동기 프로그래�
  이 위젯을 만들면서
  Children 을 쓰는 경우와 Child 를 쓰는 차이점을 배운것 같습니다
  ![image](https://github.com/user-attachments/assets/88dd6dab-f1d5-4ddd-901a-1e031d039eef)
+ ## 계산기 만들기 위젯
+위젯을 만들어보면서 느끼는건 첫순서가
+1.메인 함수에서 runapp을 실행시킨후
+MaterialApp과 Scaffold로 앱 에 초기를 만든후에
+2.Ui 에 컨테이너를 만들어준후
+3.계산기 본체에
+상당 중단 하단
+을 만들어준후
+4.버튼 레이아웃 을 이중리스트로 구성해주고 
+행은 ROW로 내부에 버튼은 컨테이너로 구성했다..
+이중을 사용한 이유는 행과 열을 표현하기위해 이중리스트로 구성하였다!
+![image](https://github.com/user-attachments/assets/5d5cf2c0-0f51-4b9a-8d85-52338f0adc50)
+
