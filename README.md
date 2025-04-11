@@ -30,3 +30,13 @@ flutter upgrade 를 사용하면 버전이 업그레이드 되어서 잘 마무�
 보여주는거를 어떻게 만들어야지 했을때 검색을 해보니
 import 'dart:async'; = Dart 프로그래밍 언어에서 비동기 프로그래밍과 관련된 기능을 사용하기 위해서는 이게 없어서는 안댄다는거를 알았다..
 ![image](https://github.com/user-attachments/assets/4efe5772-5f8f-42d2-bd9e-88276458f26b)
+## 과제 색깔 사각형 만들기위젯을 해보았습니다 
+처음에는 위젯으로 사각형을 만들려면 뭐가 필요할지 생각해봤습니다 
+그런데 뭔가 뒷배경부터 만들고 싶어서 backgroundColor: Colors.pink[100], 핑크색을 입혔고
+여러가지를 입히기에 Childern 복수 위젯을 사용하였습니다ㅣ
+그리고 텍스트 사각형과 정사각형의 거리를 두고싶어서
+ const SizedBox(height: 20), 이 코드를 사용하였고
+ 컨테이너 같은 한가지 위젯만 사용할때는 child 를 사용하였습니다
+ 이 위젯을 만들면서
+ Children 을 쓰는 경우와 Child 를 쓰는 차이점을 배운것 같습니다
+ ![image](https://github.com/user-attachments/assets/88dd6dab-f1d5-4ddd-901a-1e031d039eef)
