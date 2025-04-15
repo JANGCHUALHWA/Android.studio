@@ -1,0 +1,96 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'CheckBox & Switch 예제',
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  // CheckBox 상태
+  bool isReading = false;
+  bool isGaming = false;
+
+  // Switch 상태
+  bool isNotificationOn = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('CheckBox & Switch 위젯'),
+      ),
+      body: Padding(
+        padding: EdgeInsets.all(20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+
+            Text(' 취미 선택 (CheckBox):'),
+            CheckboxListTile(
+              title: Text('독서'),
+              value: isReading,
+              onChanged: (bool? value) {
+                setState(() {
+                  isReading = value!;
+                });
+              },
+            ),
+            CheckboxListTile(
+              title: Text('게임'),
+              value: isGaming,
+              onChanged: (bool? value) {
+                setState(() {
+                  isGaming = value!;
+                });
+              },
+            ),
+
+            SizedBox(height: 30),
+            Text(' 알림 설정 (Switch):'),
+            SwitchListTile(
+              title: Text('알림 켜기'),
+              value: isNotificationOn,
+              onChanged: (bool value) {
+                setState(() {
+                  isNotificationOn = value;
+                });
+              },
+            ),
+
+            SizedBox(height: 30),
+            ElevatedButton(
+              onPressed: () {
+                String hobby = '';
+                if (isReading) hobby += '독서 ';
+                if (isGaming) hobby += '게임 ';
+
+                showDialog(
+                  context: context,
+                  builder: (ctx) => AlertDialog(
+                    title: Text('입력 결과'),
+                    content: Text('취미: $hobby\n알림: ${isNotificationOn ? "ON" : "OFF"}'),
+                  ),
+                );
+              },
+              child: Text('확인'),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
