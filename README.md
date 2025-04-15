@@ -53,3 +53,10 @@ MaterialApp과 Scaffold로 앱 에 초기를 만든후에
 이중을 사용한 이유는 행과 열을 표현하기위해 이중리스트로 구성하였다!
 ![image](https://github.com/user-attachments/assets/5d5cf2c0-0f51-4b9a-8d85-52338f0adc50)
 
+## 04-14 기본 위젯 체크박스와 스위치 
+1.CheckBox는 다중으로 선택이 가능할 때 유용 한것 같고
+2.Switch는 하나의 옵션 On/Off할 때 더 좋은것 같았다
+
+![image](https://github.com/user-attachments/assets/0115eca2-d5ad-42e6-a05c-f11502800425)
+
+
