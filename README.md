@@ -59,4 +59,7 @@ MaterialApp과 Scaffold로 앱 에 초기를 만든후에
 
 ![image](https://github.com/user-attachments/assets/0115eca2-d5ad-42e6-a05c-f11502800425)
 
+## 7주차 과제
+Navigator.push: 버튼 클릭 시 새로운 페이지(SecondStatefulPage)로 이동하는 스택구조
+initState()**와 dispose() 각페이지의 생성과 섹제를 담당해줬다 llM 서비스 이요함
 
